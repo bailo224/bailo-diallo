@@ -1,0 +1,527 @@
+html
+{
+    background: url("IMAGES/album/Capture\ d\'écran\ 2024-09-26\ 204252.png") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#body-acceuil
+{
+    margin: auto;
+    width: 1200px;
+    background-color: transparent;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+#G-body
+{
+    margin: auto;
+    width: 1200px;
+    background-color: white;
+    margin-top: 75px;
+}
+#menu1
+{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    position:sticky;
+    top: 0px;
+    left: 157px;
+    right: 156px;
+}
+#menu1 li a
+{
+    display: block;
+    text-decoration: none;
+    padding: 20px 50px;
+    text-align: center;
+    float: left;
+    color: rgb(251, 251, 251);
+    border-right: 1px solid white;
+}
+#menu1 li:hover,#menu1 a:hover
+{
+    background-color: rgb(156, 155, 155);
+    font-size: small;
+}
+.test
+{
+    background-color: transparent;
+    background-size: cover;
+    border: 2px solid white;
+    border-bottom: none;
+    height: 500px;
+    margin-top: 15px;
+    
+}
+.titre1
+{
+    color: rgba(9, 14, 87, 0.598);
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgb(43, 27, 27);
+    
+}
+#titre-acceuil
+{
+    background-color: white;
+    border: 2px solid white;
+    border-bottom: none;
+}
+.titre1:hover
+{
+    color: blue;
+    text-shadow: 2px 2px 5px white;
+}
+#sous-nav
+{
+    cursor: pointer;
+}
+ul #sur-nav
+{
+    display: none;
+    position: absolute;
+    top: 59px;
+    background-color:white;
+    list-style-type: none;
+    min-width: 155px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+
+}
+#sous-nav:hover #sur-nav
+{
+    display: block;
+}
+#sur-nav li a:hover
+{
+    background-color: rgb(230, 229, 229);
+}
+#sur-nav li a
+{
+    color: black;
+    border-right: none;
+    width: 93px;
+    font-size: 15px;
+    border-top: 1px solid white;
+}
+#pied
+{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    margin-top: -17px;
+    position: relative;
+    top: 0px;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    
+}
+.foot1
+{
+    width: 700px;
+    height: 160px;
+    background-color: transparent;
+    padding: 25px;
+    font-size: x-large;
+    word-spacing: 5px;
+    font-family: "Brush script MT", cursive;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+
+}
+.foot1:hover
+{
+   background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8)50%);
+   box-shadow: 5px 5px 5px black;
+   color: black;
+   font-weight: 600;
+   font-family:monospace;
+   word-spacing: normal;
+}
+#profil
+{
+    height: 150px;
+    width: 130px;
+    float: left;
+    border-radius: 25px;
+    border: 1px solid blue;
+    
+}
+#apropos-titre
+{
+    height: 150px;
+    margin-top: -17px;
+    background:url("IMAGES/fond/R.jfif");
+    background-size: cover;
+    padding: 20px;
+}
+#A-p
+{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+.interieur-pied
+{
+    width: 400px;
+    height: 120px;
+    border-right: 2px solid white;
+    background-color: transparent;
+    margin: 20px;
+    margin-right: none;
+}
+.interieur-pied h2
+{
+    text-align: center;
+}
+.interieur-pied p
+{
+    text-align: center;
+}
+#foot
+{
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    top : -50px;
+    text-align: center;
+    padding-top: 13px;
+    border-top: 2px solid white;
+}
+#footer
+{
+    position: relative;
+    bottom: -63px;
+    /*top: 800px;*/
+}
+#contact-form
+{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(222, 222, 222);
+    background-size: cover;
+}
+#titre-form
+{
+    margin-top: -20px;
+    background-color: rgb(118, 118, 212);
+    height: 100px;
+    padding: 20px;
+}
+.titre2-form
+{
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+#video-bloc
+{
+    margin-top: -18px;
+    height: 350px;
+    background: url("IMAGES/fond/istockphoto-1336906460-1024x1024.jpg");
+    background-size: cover;
+    padding: 20px;
+
+}
+#video-bloc h1
+{
+    background-color: rgb(77, 183, 241);
+    width: max-content;
+    border-radius: 50px;
+    border: 2px solid white;
+    
+}
+#video-bloc marquee h1
+{
+    margin-top: 250px;
+}
+#video-titre
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px 5px 4px rgb(255, 255, 255);
+    padding: 20px;
+    color: rgb(25, 0, 255);
+}
+#section1
+{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.section-p, #telecharge-bloc h2
+{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    border-radius: 30px;
+    background-color: rgb(51, 151, 185);
+    color: white;
+}
+.div1-video a
+{
+    width: 427px;
+    height: 350px;
+}
+.div1-video
+{
+    background-color: rgb(255, 255, 255);
+    height: 260px;
+    padding: 5px;
+    border-right: 1px solid rgb(54, 52, 52);
+}
+video
+{
+    border-radius: 20px;
+    height: 205px;
+}
+.div1-video:hover
+{
+    margin-bottom: 3px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 2px 3px  rgb(51, 151, 185);
+}
+.div1-video p
+{
+    text-align: center;
+    font-size: 15px;
+    font-weight:100;
+    font-family: algerian;
+}
+#section1 ul
+{
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid rgb(46, 45, 45);
+    border-top: 1px solid black;
+    width: 1192px;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#section1 ul, li
+{
+    box-sizing: border-box;
+}
+.separe
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#section2
+{
+    height: 800px;
+    background-image: url("IMAGES/fond/1107788_OOWU2N0.jpg");
+    background-size: cover;
+    padding-top: 10px;
+}
+#section2 ul
+{
+    list-style-type: none;
+    background-color: transparent;
+    width: max-content;
+    padding-left: 0px;
+    position: relative;
+    right: 4px;
+    border: 2px dashed rgb(10, 139, 57);
+    height: 300px;
+    overflow: auto;
+}
+#section2 ul li
+{
+    
+}
+#section2 .div-audio
+{
+    background-color: rgb(241, 241, 241);
+    width: max-content;
+    border-radius: 10px;
+    height: 100px;
+}
+#section2 .div-audio p
+{
+    font-size: large;
+    text-align: left;
+    padding-left: 5px;
+
+}
+audio
+{
+    height: 25px;
+    width: 500px;
+    margin-bottom: 25px;
+}
+#div-image1
+{
+    width: max-content;
+    position: relative;
+    top: 62px;
+    left: 30px;
+    background-color: green;
+}
+.image1-audio, .image2-audio
+{
+    height: 300px;
+    width: 280px;
+    border-radius: 70px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(10, 139, 57);
+}
+.image1-audio
+{
+    float: left;
+}
+.image2-audio
+{
+    float: right;
+}
+.div-image2
+{
+    width: max-content;
+    float: right;
+    position: relative;
+    top: 62px;
+    right: 30px; 
+}
+#titre1-progress
+{
+    height: 150px;
+    color: white;
+    background: url("IMAGES/fond/pngtree-d-rendering-of-sound-particle-waveform-equalizer-for-music-signal-transmission-image_3781897.jpg");
+    background-size: cover;
+    border: 2px solid red;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 3px 5px rgba(73, 17, 203, 0.639);
+    margin-top: -15px;
+    font-size: x-large;
+}
+#titre1-progress h1
+{
+    text-align: center;
+    padding: 15px;
+    text-shadow: 4px 4px 4px black;
+}
+
+#titre-galerie
+{
+    height: 300px;
+    padding: 20px;
+    background:url("IMAGES/fond/istockphoto-1421642352-1024x1024.jpg");
+    background-size: cover;
+    margin-top: -17px;
+}
+#titre-galerie h1
+{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#album-bloc
+{
+    background-color: rgb(255, 0, 0);
+}
+.bloc-image
+{
+    display: flex;
+    list-style-type: none;
+}
+.image-galerie
+{
+    height: 250px;
+    width: 367px;
+    border: 1px solid white;
+}
+.image-galerie:hover
+{
+    height: 260px;
+    border-top: 5px solid rgb(255, 0, 0);
+    border-left: 5px solid rgb(255, 0, 0);
+}
+.bloc-image
+{
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin: auto;
+    width: 99%;
+}
+
+.bloc-image, .bloc-image li
+{
+    padding: 10px;
+    box-sizing: border-box;
+}
+#telecharge-bloc
+{
+    padding: 5px;
+}
+h4
+{
+    padding: 30px;
+    
+    width: max-content;
+    background-color:  rgb(51, 151, 185);
+    border-radius: 10px;
+    font-size: large;
+    font-style:italic;
+    text-decoration: underline;    
+}
+
+#Telecharger-pdf, #telecharge-doc, #telecharge-exe  
+{
+    width: 100%;
+    padding: 25px;
+    border-bottom: 1px solid black;
+}
+
+.pdf
+{
+    height: 450px;
+    width: 750px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.telecharge
+{
+    text-decoration: none;
+    font-size: large;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+.telecharge:hover
+{
+    background-color: gray;
+    color: black;
+}
+.annonce
+{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+#telecharge-exe p
+{
+    text-align: center;
+}

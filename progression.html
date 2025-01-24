@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progression</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shorcut icon" href="IMAGES/icone/progress.jpg">
+</head>
+<body id="G-body">
+    <style>
+        #menu-bloc
+        {
+            position: fixed;
+        }
+        details
+        {
+            position: relative;
+            z-index: 10;
+            border: 1px solid #ccc;
+            background:linear-gradient( rgba(210, 210, 210, 0.8)60%, rgba(210, 210, 210, 0.8)60%);
+            border-radius: 5px;
+            padding: 10px;
+            width: 400px;
+            margin: 10px 0;
+        }
+        summary
+        {
+            font-weight: bold;
+            font-size: 16px;
+            cursor:pointer;
+        }
+        details[open]
+        {
+            background-color: #f9f9f9;
+            border-color: #aaa;
+        }
+        details p
+        {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #555;
+        }
+        .bare-progress
+        {
+            font-size: large;
+            font-weight: bolder;
+            color: black;
+        }
+        meter 
+        {
+            width: 300px;
+            height: 20px;
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        #bloc-progress
+        {
+            background: url("IMAGES/fond/pngtree-d-rendering-of-sound-particle-waveform-equalizer-for-music-signal-transmission-image_3781897.jpg");
+            background-size: cover;
+            margin-top: 0px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        #progress-bloc
+        {
+            width: max-content;
+            margin-left: 400px;
+        }
+        .tete-list
+        {
+            font-size: large;
+            font-weight: 600;
+        }
+    </style>
+            <ul id="menu1">
+                <li><a href="Acceuil.html">ACCEUIL</a></li>
+                <li><a href="Apropos.html">A PROPOS</a></li>
+                <li><a href="progression.html">PROGRESSION</a></li>
+                <li id="sous-nav"><a href="galerie.html">GALERIE</a></li>
+                <li id="sous-nav">
+                    <a href="telecharger.html" >TELECHARGER</a>
+                    <ul id="sur-nav">
+                        <li><a href="PAGES/telecharger.html#section1">video</a></li>
+                        <li><a href="PAGES/telecharger.html#section2">Audio</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" style="border: none;">CONTACT</a></li>            
+            </ul>
+
+            <div id="titre1-progress"><h1>Niveau de progression en informatique</h1></div>
+
+            <section id="bloc-progress">
+                <div id="progress-bloc">
+                    <details>
+                        <summary> HTML & CSS <meter value="80" min="0" max="100" low="40" high="70" optimum="100"></meter>80%</summary>
+                        <p>ca avance bien en html</p>
+                             </details>
+
+                    <details>
+                        <summary>POO/C++ <br><meter value="60" min="0" max="100" low="40" high="70" optimum="100"></meter>60%</summary>
+                        <P>                               </P>
+                        </details>
+
+                    <details>
+                        <summary>RECHERCHE OPERATIONNELLE <meter value="30" min="0" max="100" low="40" high="70" optimum="100"></meter>30%</summary>
+                        <P>                                                            </P>
+                       </details>
+
+                    <details>
+                        <summary>CCNA1 <br><meter value="70" min="0" max="100" low="40" high="70" optimum="100"></meter>70%</summary>
+                        <P>                                                             </P>
+                          </details>
+
+                    <details>
+                        <summary>SYSTEME D'EXPLOITATION <meter value="40" min="0" max="100" low="40" high="70" optimum="100"></meter>40%</summary>
+                        <P>                                                                </P>
+                          </details>
+                </div>
+            </section>
+
+            <footer id="footer">
+                <div id="pied">
+                    <div class="interieur-pied">
+                        <h2>Date de mise en ligne</h2>
+                        <p>
+                            08 janvier 2025
+                        </p>
+                    </div>
+                    <div class="interieur-pied">
+                        <h2>Droit d'auteur</h2>
+                        <p>
+                            Réaliser par : Mamadou Bailo Diallo
+                        </p>
+                    </div>
+                    <div class="interieur-pied" style="border-right: none;">
+                        <h2>Contact</h2>
+                        <address>
+                            <p>
+                                +224624325751
+                            </p>
+                        </address>
+                    </div>        
+                </div>
+                <div id="foot">
+                    @uncguineeconakry
+                </div>
+            </footer>        
+</body>
+</html>
